@@ -1,134 +1,93 @@
 <!DOCTYPE html>
 
 <html>
-<style>
-.bigtitle {
-  font-size: 400%;
-  font-family:sans-serif;
-  color: rgb(255, 255, 255);
-}
-.header {
-  font-size: 200%;
-  font-family:Sans-Serif;
-  color:black;
-}
-.normtext {
-  font-family:Sans-Serif;
-  color:black;
-}
-.box {
-  width: 90%;
-  height: 90%;
-  padding: 10px;
-  border: 5px white;
-  margin: auto;
-  background-color:white;
-}
-.teambox {
-  width: 100%;
-  height: 90%;
-  margin: auto;
-  position: relative; /* Required for the pseudo-element to overlay */
-  overflow: hidden; /* Ensures the pseudo-element stays within bounds */
-}
-.spacer {
-  height: 100px;
-}
-
-.teambox::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("https://i.ibb.co/dcDBQXV/image.png");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5; /* Controls only the background image opacity */
-}
-
-.firstbox {
-  width: 100%;
-  height: 90%;
-  margin: auto;
-  position: relative; /* Required for the pseudo-element to overlay */
-  overflow: hidden; /* Ensures the pseudo-element stays within bounds */
-}
-.spacer {
-  height: 150px;
-}
-.firstbox::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("https://i.ibb.co/FwkgXJ9/IMG-4290-1.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5; /* Controls only the background image opacity */
-}
-
-.outimage {
-  width: 250px;
-  height: 200px; 
-  object-fit: contain;
-  margin: auto;
-}
-.inimage {
-  width: 250px;
-  height: 200px; 
-  object-fit: contain;
-  margin: auto;
-  display: inline-block;
-}
-</style>
+  <link rel="stylesheet" href="style.css" />
   <head>
     <title>FTC TEAM 23222</title>
   </head>
-  <body style="background-color:#003375;">
-      <h1 class="bigtitle" align="center" >Cheesy Dreams </h1>
-      <div width = 90% align = center><img width = 90% src="https://media.team254.com/homepage/skyline2x.png"></div>
-      <div class=box>
-      <h4 class = "header" style="line-height: 0.1;"> Our Team</h5>
-      <h4 class = "normtext"  style="line-height: 1;">We're FIRST Tech Challenge Team 23222, hosted by Bellarmine College
-      Preparatory in San Jose, California. Currently we have 14 members, and we have been competing in First Tech Challenge for 2 years.</h6>
+  <body style="background-color: #003375">
+    <h1 class="bigtitle center">Cheesy Dreams</h1>
+    <div
+      style="
+        width: 133dvw;
+        overflow-x: hidden;
+        white-space: nowrap;
+        margin-left: -33dvw;
+      "
+    >
+      <img
+        class="center bridge-header"
+        src="https://media.team254.com/homepage/skyline2x.png"
+      />
+      <img
+        class="center bridge-header"
+        src="https://media.team254.com/homepage/skyline2x.png"
+      />
+      <img
+        class="center bridge-header"
+        src="https://media.team254.com/homepage/skyline2x.png"
+      />
+      <img
+        class="center bridge-header"
+        src="https://media.team254.com/homepage/skyline2x.png"
+      />
+    </div>
+    <div class="box">
+      <h4 class="header" style="line-height: 0.1">Our Team</h4>
+      <p class="normtext" style="line-height: 1">
+        We're FIRST Tech Challenge Team 23222, hosted by Bellarmine College
+        Preparatory in San Jose, California. Currently we have 14 members, and
+        we have been competing in First Tech Challenge for 2 years.
+      </p>
       <div></div>
-      
+
       <a href="members.html">
-      <div class="teambox">
-        <h1 class = header style = "text-align: center; width: 100%;">Our Members</h1>
-      <div class="spacer"></div>
-      </div>
-      </a>
-      
-      <a href="outreach.html">
-      <div class = "firstbox">
-          <h1 class = header style = "text-align: center; width: 100%; font-size: 75px">Outreach</h1>
-      <div class="spacer"></div>
-      </div>
+        <div class="teambox">
+          <h1 class="header team-header">Our Members</h1>
+          <!-- <div class="spacer"></div> -->
+        </div>
       </a>
 
-      <h4 class="header"  style="line-height: 1;">2024-2025 FTC Season - Into the Deep</h2>
-      <h4 class="normtext"  style="line-height: 1;">We are participating in the First Tech Challenge: 
-      Into the Deep, presented by RTX. Though sadly there is no water involved, the game objective is to 
-      explore the "deep sea" field with our "submersible" robot, collecting samples in the form of red, 
-      yellow, and blue boxes. FIRST hopes to uncover the potential in each of us to strengthen our 
-      community and innovate for a better world with healthy oceans. </h3>
-      <h4 class="header"  style="line-height: 0.1;">Outreach</h4>
-      <h4 class = "normtext"  style="line-height: 1;"> In September, we hosted an outreach event at The Tech Museum. Our goal
-      was to inspire kids to learn more about robotics, and maybe even compete in their own team in their
-      future. Along with that, in the summer we host a six week summer camp along with Team 254 where upcoming freshmen
-      can compete in a competition at the end with their own vex robot they built over the course of the weeks.
-      We also plan to have a table for the Computer History Museum's Techfest on December 7th. In addition, Joyce-Ellington
-      library, and hopefully other libraries in the future, have accepted our inviitation to host a weekly workshop, tying in to
-      the Silicon Valley Reads theme for 2025: Empowering Humanity Through Technology.</h4>
-      <h4 class = "header" style="line-height: 0.1;"> Our Sponsors</h5>
-      <h4 class = "normtext"  style="line-height: 1;">We'd like to thank our sponsors for helping contribute to
-      our success. Without their support, we would never be able to get this far. Special thanks to Swyft for their
-      financial help and donation of their new Swyft wheels for improved movement, crucial to the game.</h6>
-      </div>
+      <a href="outreach.html">
+        <div class="firstbox">
+          <h1 class="header" style="text-align: center; width: 100%">
+            Outreach
+          </h1>
+          <div class="spacer"></div>
+        </div>
+      </a>
+
+      <h2 class="header" style="line-height: 1">
+        2024-2025 FTC Season - Into the Deep
+      </h2>
+      <h3 class="normtext" style="line-height: 1">
+        We are participating in the First Tech Challenge: Into the Deep,
+        presented by RTX. Though sadly there is no water involved, the game
+        objective is to explore the "deep sea" field with our "submersible"
+        robot, collecting samples in the form of red, yellow, and blue boxes.
+        FIRST hopes to uncover the potential in each of us to strengthen our
+        community and innovate for a better world with healthy oceans.
+      </h3>
+      <h4 class="header" style="line-height: 0.1">Outreach</h4>
+      <h4 class="normtext" style="line-height: 1">
+        During the summers, we host a six week summer camp along with Team 254
+        where upcoming freshmen build robots with VEX parts and compete in a
+        livestreamed competition at the end. In September, we hosted an outreach
+        event at The Tech Museum. Our goal was to introduce robotics to children
+        and inspire them to compete in their own team in the future. We plan to
+        have a table for the Computer History Museum's Techfest on December 7th.
+        In addition, Joyce-Ellington library, and hopefully other libraries in
+        the future, have accepted our inviitation to host a weekly workshop,
+        tying in to the Silicon Valley Reads theme for 2025: Empowering Humanity
+        Through Technology.
+      </h4>
+      <h4 class="header" style="line-height: 0.1">Our Sponsors</h4>
+      <h6 class="normtext" style="line-height: 1">
+        We'd like to thank our sponsors for helping contribute to our success.
+        Without their support, we would never be able to get this far. Special
+        thanks to Swyft for their financial help and donation of their new Swyft
+        wheels for improved movement, crucial to the game.
+      </h6>
+    </div>
   </body>
 </html>
